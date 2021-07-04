@@ -7,3 +7,15 @@ import SecureAttachmentAPI from "./SecureAttachmentAPI";
 import GraphAPIHelper from "./GraphAPIHelper";
 import OfficeAPIHelper from "./OfficeAPIHelper";
 
+
+var secureAttachmentAPI = new SecureAttachmentAPI();
+//secureAttachmentAPI.test();
+
+// without default
+/*
+export {
+    SecureAttachmentAPI,
+    GraphAPIHelper,
+    OfficeAPIHelper
+}
+*/

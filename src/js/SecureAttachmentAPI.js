@@ -1,7 +1,10 @@
 
-class SecureAttachmentAPI {
+export default class SecureAttachmentAPI {
 
     constructor(){
     }
 
+    test(){
+        console.log("hello");
+    }
 }
