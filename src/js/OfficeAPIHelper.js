@@ -1,4 +1,4 @@
-export class OfficeAPIHelper {
+export default class OfficeAPIHelper {
     
     constructor(){
         

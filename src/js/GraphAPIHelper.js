@@ -1,5 +1,5 @@
 
-export class GraphAPIHelper {
+export default class GraphAPIHelper {
 
     constructor(){
         

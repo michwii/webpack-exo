@@ -8,6 +8,10 @@ import GraphAPIHelper from "./GraphAPIHelper";
 import OfficeAPIHelper from "./OfficeAPIHelper";
 
 
+function doNotDelete(){
+    console.log("doNotDelete");
+}
+
 var secureAttachmentAPI = new SecureAttachmentAPI();
 //secureAttachmentAPI.test();
 
