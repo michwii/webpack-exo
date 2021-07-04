@@ -13,6 +13,9 @@ function doNotDelete(){
 }
 
 var secureAttachmentAPI = new SecureAttachmentAPI();
+
+window.doNotDelete = doNotDelete;
+
 //secureAttachmentAPI.test();
 
 // without default

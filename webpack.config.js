@@ -2,7 +2,7 @@ var path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: ['whatwg-fetch', './src/js/app.js'],
   output: {
     filename: 'bundle.js',
@@ -23,5 +23,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './index.html'
     })
-  ]
+  ],
+  /*optimization: {
+    usedExports: false, // <- no remove unused function
+  }*/
 };
